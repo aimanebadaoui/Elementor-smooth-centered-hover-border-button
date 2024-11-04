@@ -1,2 +1,13 @@
-# Elementor-smooth-centered-hover-border-button
-The Smooth Centered Hover Border Button features an elegant design with a unique hover effect, where borders gracefully shrink from the center. This visually appealing button is easy to implement in Elementor using custom CSS and can be customized to match your website’s style. Perfect for calls to action or any interactive elements!
+# Smooth Centered Hover Border Button
+
+This repository contains CSS code for a custom button hover effect in Elementor. The button features top and bottom borders that shrink to 50% on hover.
+
+## Usage
+
+1. Copy the CSS from `button-style.css`.
+2. In Elementor, add a button widget and assign it the class `elementor-custom-btn`.
+3. Paste the CSS code into the Custom CSS field (for Elementor Pro users) or your theme's CSS file (for Elementor Free users).
+
+## Demo
+
+View the `index.html` file for a live demo.
