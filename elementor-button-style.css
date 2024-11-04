@@ -1,0 +1,45 @@
+/* Style the button */
+selector.custom-btn {
+  position: relative;
+  color: #fff; /* Button text color */
+  background-color: #1B1B1B /* Button background color */;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+/* Top and bottom borders */
+selector.custom-btn::before,
+selector.custom-btn::after {
+  content: '';
+  position: absolute;
+  left: 50%; /* Start from the center */
+  transform: translateX(-50%); /* Center the borders */
+  height: 2px; /* Border thickness */
+  background-color: #FFFFFF; /* Border color */
+  transition: width 0.4s ease; /* Smooth width transition */
+  width: 100%; /* Full width by default */
+}
+
+/* Positioning the borders */
+selector.custom-btn::before {
+  top: -6px; /* Space above the button */
+}
+
+selector.custom-btn::after {
+  bottom: -6px; /* Space below the button */
+}
+
+/* Hover effect */
+selector.custom-btn:hover {
+  background-color: #FFFFFF; /* Change button color on hover */
+  color: #333; /* Change text color on hover */
+}
+
+selector.custom-btn:hover::before,
+selector.custom-btn:hover::after {
+  width: 50%; /* Shrink borders to 50% on hover */
+}
+
+/* Enjoy using this code! Aimane Badaoui :) */
